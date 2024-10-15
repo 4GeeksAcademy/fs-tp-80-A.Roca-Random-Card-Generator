@@ -1,1 +1,66 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+  margin: auto;
+}
+.mainBox {
+  background: linear-gradient(to bottom, green, black);
+  width: 100%;
+  height: 100vh;
+  margin-top: 10px;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+.carta {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 300px;
+  margin: auto;
+  border-radius: 25px;
+  justify-content: space-between;
+}
+.paloUp {
+  font-size: 125px;
+  align-self: flex-start;
+  width: auto;
+  padding-left: 20px;
+  margin-top: 0;
+}
+.valorCarta {
+  font-size: 140px;
+  width: auto;
+  align-self: center;
+  padding-top: 0;
+}
+.paloDown {
+  font-size: 125px;
+  align-self: flex-end;
+  padding-left: 20px;
+  rotate: 180deg;
+}
+.buttonCard {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+button {
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: red;
+  font-weight: 700;
+}
+button:hover {
+  background-image: linear-gradient(to right, red, black, black);
+  color: white;
+  border-color: blue;
+}
+.counter {
+  color: red;
+  font-size: 60px;
+}
+.textCounter {
+  color: blue;
+}
